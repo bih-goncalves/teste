@@ -15,4 +15,4 @@ app.get('/', (req, res) => {
     return res.send('Hello API');
 })
 
-server.listen(8000);
+server.listen(process.env.PORT || 4200);
