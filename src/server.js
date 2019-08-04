@@ -1,11 +1,11 @@
 const express = require('express');
 const cors = require('cors');
 
-const server = require('http').Server(app);
 
 const app = express();
 
 app.use(cors());
+const server = require('http').Server(app);
 
 app.use(express.json());
 
